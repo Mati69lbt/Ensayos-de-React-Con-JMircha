@@ -1,0 +1,29 @@
+{
+    "frameworks": [
+        {
+            "id":1,
+            "name":"Once",
+            "web":"https://www.elonce.com/"
+        },
+        {
+            "id":2,
+            "name":"Tribuno",
+            "web":"https://www.eltribuno.com/salta"
+        },
+        {
+            "id":3,
+            "name":"Infobae",
+            "web":"https://www.infobae.com/"
+        },
+        {
+            "id":4,
+            "name":"Clarin",
+            "web":"https://www.clarin.com/"
+        },
+        {
+            "id":5,
+            "name":"lmcba ",
+            "web":"http://www.lmcordoba.com.ar/"
+        }
+    ]
+}
