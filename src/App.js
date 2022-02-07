@@ -15,6 +15,8 @@ import RelojHooks from "./components/Reloj-Hooks-useEffect";
 import AjaxHooks from "./components/ajax-Hooks";
 import HooksPersonalizados from "./components/Hooks-personalizados-customs";
 import Referencias from "./components/Refereencias";
+import Formularios from "./components/Formularios";
+import FormularioSimplificado from "./components/FormularioSimplificado";
 
 function App() {
   let nombre = "Matias";
@@ -117,13 +119,30 @@ function App() {
         <AjaxHooks/>
       </section>
       <hr/>
-      <section>
+      <section className="hp">
         <HooksPersonalizados/>
       </section>
       <hr/>
-      <section>
+      <section className="refe">
         <Referencias/>
       </section>
+      <hr/>
+      <section className="form">
+        <Formularios/>
+      </section>
+      <hr/>
+      <section className="forsim">
+      <FormularioSimplificado/>
+      </section>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
     </div>
   );
 }
