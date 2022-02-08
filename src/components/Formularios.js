@@ -91,7 +91,7 @@ export default function Formularios() {
           onChange={(e) => setSabror(e.target.value)}
         />
         <label htmlFor="Vainilla">Vainilla</label>
-        <br/>
+        <br />
         <p>Elige tu Marca Preferida</p>
         <select
           name="marca"
@@ -109,17 +109,16 @@ export default function Formularios() {
           <option value="Toyota">Toyota</option>
         </select>
         <br />
-        <label htmlFor="Terminos">Acepto Termino y Condiciones</label>        
+        <label htmlFor="Terminos">Acepto Termino y Condiciones</label>
         <input
           type="checkbox"
           id="terminos"
           name="terminos"
           onChange={(e) => setTerminos(e.target.checked)}
         />
-        <br/>
-        <input type="submit"/>
+        <br />
+        <input type="submit" />
       </form>
-      
     </>
   );
 }

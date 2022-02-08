@@ -17,6 +17,7 @@ import HooksPersonalizados from "./components/Hooks-personalizados-customs";
 import Referencias from "./components/Refereencias";
 import Formularios from "./components/Formularios";
 import FormularioSimplificado from "./components/FormularioSimplificado";
+import Estilos from "./components/Estilos";
 
 function App() {
   let nombre = "Matias";
@@ -133,6 +134,10 @@ function App() {
       <hr/>
       <section className="forsim">
       <FormularioSimplificado/>
+      </section>
+      <hr/>
+      <section>
+        <Estilos/>
       </section>
       <br/>
       <br/>
