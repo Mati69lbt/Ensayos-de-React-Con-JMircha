@@ -18,6 +18,7 @@ import Referencias from "./components/Refereencias";
 import Formularios from "./components/Formularios";
 import FormularioSimplificado from "./components/FormularioSimplificado";
 import Estilos from "./components/Estilos";
+import ComponentesEstilizados from "./components/ComponentesEstilizados-(css)";
 
 function App() {
   let nombre = "Matias";
@@ -138,6 +139,10 @@ function App() {
       <hr/>
       <section>
         <Estilos/>
+      </section>
+      <hr/>
+      <section>
+        <ComponentesEstilizados/>
       </section>
       <br/>
       <br/>
